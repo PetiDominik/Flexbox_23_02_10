@@ -22,7 +22,7 @@ article {
 
 section {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column-reverse wrap;
     align-items: stretch;
     justify-content: space-around;
     margin: 0 auto;
@@ -60,8 +60,8 @@ article:nth-of-type(5) {
     order: 4;
 } */
 
-@media all and (max-width: 500px){
+/* @media all and (max-width: 500px){
     section {
         flex-flow: column wrap;
     }
-}
+} */
